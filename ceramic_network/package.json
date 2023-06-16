@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@ceramicnetwork/cli": "^2.28.0",
+    "@composedb/cli": "^0.4.3"
+  },
+  "devDependencies": {
+    "@composedb/devtools": "^0.4.3",
+    "@composedb/devtools-node": "^0.4.3"
+  }
+}

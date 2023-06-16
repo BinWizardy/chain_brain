@@ -1,0 +1,11 @@
+type EducationModule {
+	module_name: String! @string(maxLength: 50)
+	module_domain: String @string(minLength: 5, maxLength: 50)
+	number_of_topics_covered: Int! @int(min: 1, max: 100)
+	learners_enrolled: [Learner!]! @list(maxLength: 30)
+}
+type Learner {
+	first_name: String! @string(minLength: 10, maxLength: 30)
+	last_name: String! @string(maxLength: 30)
+	username: String! @string(maxLength: 32)
+}

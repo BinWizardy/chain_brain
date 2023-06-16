@@ -1,0 +1,6 @@
+[submodule "subgraphs"]
+	path = backend/subgraphs
+	url = https://github.com/messari/subgraphs.git
+[submodule "backend/subgraphs_custom/sporkdao-token"]
+	path = backend/subgraphs_custom/sporkdao-token
+	url = https://github.com/marissaposner/sporkdao-token-subgraph.git

@@ -1,0 +1,33 @@
+.btn {
+/* border: none; */
+color:#fff;
+margin-right: 10px;
+margin-top: 10px;
+padding-top: 10px;
+cursor: pointer;
+/* font-size: 0.8rem;
+display: flex;
+align-items: center;
+gap:6px;
+background-color: #bdc0c5;
+border-radius: 4px;
+padding: 6px 15px;
+margin: 0 10px; */
+}
+
+.like-active {
+    color: #00FFFF; 
+      }
+       
+    .dislike-active {
+    color: #00FFFF;
+    }
+
+    /* @font-face {
+        font-family: "Fira Sans";
+        src: url('fonts/fira/eot/FiraSans-Regular.eot');
+        src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+             url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+             url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+             url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+      } */

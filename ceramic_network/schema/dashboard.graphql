@@ -1,0 +1,7 @@
+
+
+type Dashboard @createModel(accountRelation: SINGLE, description: "Very basic profile") {
+  userInput: String! @string(maxLength: 60)
+  gql: String! @string(maxLength: 60)
+  feedback: Int! @int(min: 0, max: 1)
+}
